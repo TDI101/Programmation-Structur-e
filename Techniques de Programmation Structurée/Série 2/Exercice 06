@@ -1,0 +1,44 @@
+Ecrire un algorithme qui permet de calculer le salaire net d'un employé sachant que
+SB = salaire brut, SN = salaire net, CH = charge, TH = taux horaire, NBF = nombre d'enfants, PR = prime, TIGR = taux IGR, NBH = nombre d'heures.
+SN = SB - CH
+SB = NBH * TH + PR
+PR= 150 * NBF, si le nombre d'enfants est inférieur ou égal à 5, sinon 800DH
+CH = SB * TIGR
+TIGR = 17% si SB < 1600DH
+       24% si 1600DH <= SB < 3000DH
+       30% si 3000DH <= SB < 5000DH
+       48% si 5000DH <= SB
+
+Exemple d'un solution :
+
+Algorithme Q6
+  Variables SN, SB, CH, TH, NBF, PR, TIGR, NBH : Réels
+  Début
+    NBF, TH, NBH <- 0;
+    Ecrire("Entrez les valeurs suivantes en DH);
+    lire(NBF, TH, NBH);
+    Si (NBH = 0) alors
+      SN <- 0
+    Sinon
+      Si (NBF <= 5 et NBF >= 0) alors
+        PR <- 150 * NBF;
+      Sinon Si (NBF < 0) alors
+        PR <- 0;
+      Sinon
+        PR <- 800;
+      FinSi
+      SB <- NBH * TH + PR;
+      Si (SB < 1600) alors
+        TIGR <- 0.17;
+      Sinon Si (SB >= 1600 et SB < 3000) alors
+        TIGR <- 0.24;
+      Sinon Si (SB >= 3000 et SB < 5000) alors
+        TIGR <- 0.3;
+      Sinon Si (SB >= 5000) alors
+        TIGR <- 0.48;
+      FinSi
+      CH <- SB * TIGR;
+      SN <- SB - CH;
+    FinSi
+    Ecrire("Le salaire net = ", SN);
+  Fin
