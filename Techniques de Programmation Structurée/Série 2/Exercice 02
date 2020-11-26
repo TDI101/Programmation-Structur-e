@@ -5,7 +5,7 @@ Exemple d'un solution :
 Algorithme Q2
   Variables a, b, c, m : Réels
   Début
-    Ecrire("Entrez les valeur suivant");
+    Ecrire("Entrez les valeurs suivant");
     lire(a, b, c);
     Si (a > c et b < c) alors
       Ecrire("max = a = ", a, " et min = b = ", b);
