@@ -1,0 +1,19 @@
+On dispose de trois variables A, B et C. Ecrivez un algorithme tranférant à B la valeur de A, à C la valeur de B et à A la valeur de C (toujours quels que soint les contenus préalables de ces variables).
+
+La solution :
+
+Algorithme Q4
+  Variables A, B, C, R : Entier
+  Début
+    Ecrire("Entrez la valeur de A");
+    lire(A);
+    Ecrire("Entrez la valeur de B");
+    lire(B);
+    Ecrire("Entrez la valeur de B");
+    lire(C);
+    R <- A;
+    A <- B;
+    B <- C;
+    C <- R;
+    Ecrire("A = ", A, " B = ", B, " et C = ", C);
+  Fin
