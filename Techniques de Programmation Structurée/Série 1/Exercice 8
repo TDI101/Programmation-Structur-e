@@ -1,6 +1,6 @@
 Ecrire un programme qui demande deux nombres entiers à l'utilisateur, puis qui calcule et affiche le somme de ces nombres.
 
-La solution :
+Exemple d'un solution :
 
 Algorithme Q8
   Variables A, B, C : Entiers
