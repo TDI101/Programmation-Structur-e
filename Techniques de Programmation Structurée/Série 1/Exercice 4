@@ -1,6 +1,6 @@
 On dispose de trois variables A, B et C. Ecrivez un algorithme tranférant à B la valeur de A, à C la valeur de B et à A la valeur de C (toujours quels que soint les contenus préalables de ces variables).
 
-La solution :
+Exemple d'un solution :
 
 Algorithme Q4
   Variables A, B, C, R : Entier
