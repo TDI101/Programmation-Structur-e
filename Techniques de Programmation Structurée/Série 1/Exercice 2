@@ -1,0 +1,10 @@
+Quelles seront les valeurs des variables A et B après exécution des instrucions suivants ?
+
+Algorithme Q2
+  Variables A, B : Entier
+  Début
+    A <- 5; // A = 5
+    B <- 2; // B = 2
+    A <- B; /*-- A = 2 --*/
+    B <- A; /*-- B = 2 --*/
+  Fin
