@@ -23,5 +23,5 @@ Algorithme Q11
     Ecrire("Entrez la note de Histoire - Geogr");
     lire(Hg);
     m <- ( (Mat + Phy) * 7) + (Fra * 4) + (Ang * 2) + Hg ) / 21;
-    Ecrire("la moyenne = ", m);
+    Ecrire("La moyenne = ", m);
   Fin
