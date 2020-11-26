@@ -1,0 +1,27 @@
+Le surveillant général d'un établissement scolaire souhaite qu'on lui écrit un programme qui calcule, pour chaque élève, la moyenne des notes des cinq matières. Ces matières sont avec leur coefficient :
+
+Matières coefficients :
+Math = 7
+Physique = 7
+Français = 4
+Anglais = 2
+Histoire - Geogr
+
+Exemple d'un solution :
+
+Algorithme Q11
+  Variables Mat, Phy, Fra, Ang, Hg, m : Réels
+  Début
+    Ecrire("Entrez la note de Math");
+    lire(Mat);
+    Ecrire("Entrez la note de Physique");
+    lire(Phy);
+    Ecrire("Entrez la note de Français");
+    lire(Fra);
+    Ecrire("Entrez la note de Anglais");
+    lire(Ang);
+    Ecrire("Entrez la note de Histoire - Geogr");
+    lire(Hg);
+    m <- ( (Mat + Phy) * 7) + (Fra * 4) + (Ang * 2) + Hg ) / 21;
+    Ecrire("la moyenne = ", m);
+  Fin
