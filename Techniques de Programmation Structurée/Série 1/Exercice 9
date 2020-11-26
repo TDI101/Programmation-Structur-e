@@ -1,0 +1,18 @@
+Ecrire un programme qui lit le prix HT d'un article, le nombre d'articles et le taux de TVA, et qui fournit le prix total TTC correspondant. Faire en sorte que des libellés apparaissent clairement.
+
+Exemple d'un solution :
+
+Algorithme Q9
+  Variables HT, TVA, TTC : Réels
+  Variable N : Entier
+  Début
+    Ecrire("Entrez les valeur suivant");
+    Ecrire("HT");
+    lire(HT);
+    Ecrire("number d'articles");
+    lire(N);
+    Ecrire("TVA");
+    lire(TVA);
+    TTC <- N*HT*(1 + TVA);
+    Ecrire("TTC = ", TTC);
+  Fin
