@@ -32,6 +32,6 @@ Algorithme Q2
     Sinon Si (b = c et a > b) alors
       Ecrire("max = a = ", a, " et min = b = c = ", c);
     Sinon
-      Ecrire("la valeur n'est pas validée ou un error dans les conditions");
+      Ecrire("la valeur n'est pas validée ou un erreur dans les conditions");
     FinSi
   Fin
