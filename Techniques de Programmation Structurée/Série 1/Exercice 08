@@ -5,7 +5,7 @@ Exemple d'un solution :
 Algorithme Q8
   Variables A, B, C : Entiers
   Début
-    Ecrire("Entrez les valeur suivant");
+    Ecrire("Entrez les valeurs suivant");
     lire(A, B);
     C <- A + B;
     Ecrire("La somme = ", C);
