@@ -1,7 +1,7 @@
 Ecrire un algorithme qui lit une note d'un stagiaire et affiche le commentaire associé à la note
 
 Note de 0 à 8 inclus : << insuffisant >>
-Note de 8 à 12 inclus : << moyen >>
+Note de 8 à 12 inclus : << moyenne >>
 Note de 12 à 16 inclus : << bien >>
 Note de 16 à 20 inclus : << trés bien >>
 
@@ -15,7 +15,7 @@ Algorithme Q5
     Si (note >= 0 et note <= 8) alors
       Ecrire("insuffisant")
     Sinon Si (note > 8 et note <= 12) alors
-      Ecrire("moyen");
+      Ecrire("moyenne");
     Sinon Si (note > 12 et note <= 16) alors
       Ecrire("bien");
     Sinon Si (note > 16 et note <= 20) alors
