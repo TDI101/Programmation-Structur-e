@@ -6,10 +6,10 @@ Algorithme Q9
   Variables HT, TVA, TTC : Réels
   Variable N : Entier
   Début
-    Ecrire("Entrez les valeur suivant");
+    Ecrire("Entrez les valeurs suivant");
     Ecrire("HT");
     lire(HT);
-    Ecrire("number d'articles");
+    Ecrire("Number d'articles");
     lire(N);
     Ecrire("TVA");
     lire(TVA);
