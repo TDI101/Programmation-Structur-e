@@ -1,0 +1,12 @@
+Quel résultat produit le programme suivant ?
+  Variables Val, Double : Entiers
+  Début
+    Val <- 231;
+    Double <- Val * 2;
+    Ecrire(Val);
+    Ecrire(Double);
+  Fin
+
+Le résultat :
+
+  Val = 231 et Double = 462.
