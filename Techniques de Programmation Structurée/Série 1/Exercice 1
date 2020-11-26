@@ -1,1 +1,13 @@
-Hello
+Quelles seront les variables A et B après exécution des instructions suivants ?
+
+Algorithme Q1
+  Variables A, B, C : Entier
+  Début
+    A <- 1; // A = 1
+    B <- A + 3; // B = 4
+    B <- A + B; //-- B = 5 --//
+    C <- A + B; // C = 6
+    A <- B - A; // A = 4
+    A <- A + 1; // A = 5
+    A <- C; //-- A = 6 --//
+  Fin
