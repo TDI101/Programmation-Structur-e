@@ -1,0 +1,19 @@
+Ecrire un algorithme qui lit un entier et affiche sa valeur positive
+
+Exemple d'un solution :
+
+Algorithme Q1
+  Variables x, y : Entier
+  Début
+    Ecrire("Entrez un valeur");
+    lire(x);
+    Si (x > 0) alors
+      Ecrire("la numbre ", x, positive);
+    Sinon Si (x = 0) alors
+      Ecrire("Zéro est un nombre neutre");
+    Sinon
+      y <- (-1) * x;
+      Ecrire("la valeur positive = ", y);
+    FinSi
+  Fin
+    
