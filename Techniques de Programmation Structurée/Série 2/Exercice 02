@@ -1,0 +1,37 @@
+Ecrire un algorithme qui permet de lire trois rééls et affiche leur maxumum, leur minimum et leur moyenne.
+
+Exemple d'un solution :
+
+Algorithme Q2
+  Variables a, b, c, m : Réels
+  Début
+    Ecrire("Entrez les valeur suivant");
+    lire(a, b, c);
+    Si (a > c et b < c) alors
+      Ecrire("max = a = ", a, " et min = b = ", b);
+    Sinon Si (b > c et a < c) alors
+      Ecrire("max = b = ", b, " et min = a = ", a);
+    Sinon Si (a > b et b > c) alors
+      Ecrire("max = a = ", a, " et min = c = ", c);
+    Sinon Si (c > b et b > a) alors
+      Ecrire("max = c = ", c, " et min = a = ", a);
+    Sinon Si (b > a et a > c) alors
+      Ecrire("max = b = ", b, " et min = c = ", c);
+    Sinon Si (c > a et a > b) alors
+      Ecrire("max = c = ", c, " et min = b = ", b);
+    Sinon Si (a = b et c < a) alors
+      Ecrire("max = a = b = ", b, " et min = c = ", c);
+    Sinon Si (a = b et c > a) alors
+      Ecrire("max = c = ", c, " et min = a = b = ", b);
+    Sinon Si (a = c et b < a) alors
+      Ecrire("max = a = c = ", c, " et min = b = ", b);
+    Sinon Si (a = c et b > a) alors
+      Ecrire("max = b = ", b, " et min = a = c = ", c);
+    Sinon Si (b = c et a < b) alors
+      Ecrire("max = b = c = ", c, " et min = a = ", a);
+    Sinon Si (b = c et a > b) alors
+      Ecrire("max = a = ", a, " et min = b = c = ", c);
+    Sinon
+      Ecrire("la valeur n'est pas validée ou un error dans les conditions");
+    FinSi
+  Fin
