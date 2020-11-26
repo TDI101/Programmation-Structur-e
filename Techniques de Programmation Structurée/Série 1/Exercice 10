@@ -8,5 +8,5 @@ Algorithme Q10
     Ecrire("Entrez un valeur");
     lire(x);
     i <- 1/x;
-    Ecrire("l'inverse = ", i);
+    Ecrire("L'inverse = ", i);
   Fin
