@@ -1,0 +1,16 @@
+Ecrire un algorithme permettant d'échanger les valeurs de deux variables A et B, et ce quel que soit leur contenu préalable.
+
+La solution :
+
+Algorithme Q3
+  Variables A, B, N : Entier
+  Début
+    Ecrire("Entrez la valeur de A");
+    lire(A);
+    Ecrire("Entrez la valeur de B");
+    lire(B);
+    N <- A;
+    A <- B;
+    B <- N;
+    Ecrire("A = ", A, " et B = ", B);
+  Fin
