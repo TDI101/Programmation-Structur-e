@@ -8,12 +8,12 @@ Algorithme Q1
     Ecrire("Entrez un valeur");
     lire(x);
     Si (x > 0) alors
-      Ecrire("la numbre ", x, positive);
+      Ecrire("La numbre ", x, positive);
     Sinon Si (x = 0) alors
       Ecrire("Zéro est un nombre neutre");
     Sinon
       y <- (-1) * x;
-      Ecrire("la valeur positive = ", y);
+      Ecrire("La valeur positive = ", y);
     FinSi
   Fin
     
