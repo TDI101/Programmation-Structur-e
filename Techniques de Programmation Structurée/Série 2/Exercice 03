@@ -1,0 +1,16 @@
+Ecrire un algorithme qui permet de résoudre l'équation de premier degré [a * x + b = 0]
+
+Exemple d'un solution :
+
+Algorithme Q3
+  Variables a, b, x : Entiers
+  Début
+    Ecrire("Entrez la valeur de a et b");
+    lire(a, b);
+    Si (a > 0 ou a < 0) alors
+      x <- ( (-1) * b ) / a;
+      Ecrire("x = ", x);
+    Sinon
+      Ecrire("Nous avons la valeur a égal à zéro et le dénominateur est égal à zéro erreur");
+    FinSi
+  Fin
