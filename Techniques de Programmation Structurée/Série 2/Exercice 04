@@ -10,7 +10,7 @@ Algorithme Q4
     Si (a != 0) alors
       delta <- (b * b) + (-4 * a * c);
       Si (delta = 0) alors
-        x <- -b / (2 * a);
+        x <- (-b) / (2 * a);
         Ecrire("L'équation = ", x);
       Sinon Si (delta > 0) alors
         x1 <- (-b + racine(delta)) / (2 * a);
