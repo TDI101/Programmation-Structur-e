@@ -1,0 +1,12 @@
+Ecrire un programme qui lit une valeur et qui nous calcule l'inverse de cette valeur.
+
+Exemple d'un solution :
+
+Algorithme Q10
+  Variables x, i : Réels
+  Début
+    Ecrire("Entrez un valeur");
+    lire(x);
+    i <- 1/x;
+    Ecrire("l'inverse = ", i);
+  Fin
