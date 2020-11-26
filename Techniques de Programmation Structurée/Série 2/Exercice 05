@@ -1,0 +1,27 @@
+Ecrire un algorithme qui lit une note d'un stagiaire et affiche le commentaire associé à la note
+
+Note de 0 à 8 inclus : << insuffisant >>
+Note de 8 à 12 inclus : << moyen >>
+Note de 12 à 16 inclus : << bien >>
+Note de 16 à 20 inclus : << trés bien >>
+
+Exemple d'un solution :
+
+Algorithme Q5
+  Variable note : Réel
+  Début
+    Ecrire("Entrez la note de voux");
+    lire(note);
+    Si (note >= 0 et note <= 8) alors
+      Ecrire("insuffisant")
+    Sinon Si (note > 8 et note <= 12) alors
+      Ecrire("moyen");
+    Sinon Si (note > 12 et note <= 16) alors
+      Ecrire("bien");
+    Sinon Si (note > 16 et note <= 20) alors
+      Ecrire("trés bien");
+    Sinon
+      Ecrire("la note n'est pas validée");
+    FinSi
+  Fin
+  
