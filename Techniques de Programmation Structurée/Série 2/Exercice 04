@@ -1,0 +1,30 @@
+Ecrire un algorithme qui permet de résoudre l'équation de deuxième degré [a * x² + b * x + c = 0]
+
+Exemple d'un solution : 
+
+Algorithme Q4
+  Variables a, b, c, delta, x, x1, x2 : Réels
+  Début
+    Ecrire("Entrez les valeur de a et b et c");
+    lire(a, b, c);
+    Si (a != 0) alors
+      delta <- (b * b) + (-4 * a * c);
+      Si (delta = 0) alors
+        x <- -b / (2 * a);
+        Ecrire("L'équation = ", x);
+      Sinon Si (delta > 0) alors
+        x1 <- (-b + racine(delta)) / (2 * a);
+        x2 <- (-b - racine(delta)) / (2 * a);
+        Ecrire("L'équation accepte deux solutions : ", x1, " et ", x2);
+      Sinon
+        Ecrire("Il y a un erreur dans l'équation");
+      FinSi
+    Sinon Si (a = 0) alors
+      Si (b = 0) alors
+        Ecrire("Il y a un erreur dans l'équation");
+      Sinon
+        x <- (-1) * c / b;
+        Ecrire("L'équation = ", x);
+      FinSi
+    FinSi
+  Fin
