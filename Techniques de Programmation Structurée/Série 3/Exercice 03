@@ -1,0 +1,12 @@
+Exemple d'un solution :
+
+Algorithme Q3
+  Variables f, i, n : Entier
+  Début
+    Ecrire("Saisir number");
+    lire(n);
+    f <- 1;
+    Pour i <- 2 à n faire
+      f <- f * i;
+    FinPour
+  Fin
