@@ -1,0 +1,18 @@
+Exemple d'un solution :
+
+Algorithme Q5
+  Variables n, m, s, i : Réels
+  Début
+    i, s <- 0;
+    n <- 1;
+    TantQue (n != 0) faire
+      Ecrire("Entrez la number");
+      lire(n);
+      Si (n != 0) alors
+        s <- s + n;
+        i <- i + 1;
+      FinSi
+    FinTantQue
+    m <- s / i;
+    Ecrire("La somme = ", s, " et la moyenne = ", m);
+  Fin
