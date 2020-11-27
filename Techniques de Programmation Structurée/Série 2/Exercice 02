@@ -1,4 +1,4 @@
-Ecrire un algorithme qui permet de lire trois rééls et affiche leur maxumum, leur minimum et leur moyenne.
+Ecrire un algorithme qui permet de lire trois rééls et affiche leur maximum, leur minimum et leur moyenne.
 
 Exemple d'un solution :
 
@@ -7,31 +7,35 @@ Algorithme Q2
   Début
     Ecrire("Entrez les valeurs suivant");
     lire(a, b, c);
+    m <- (a + b + c) / 3;
     Si (a > c et b < c) alors
-      Ecrire("max = a = ", a, " et min = b = ", b);
+      Ecrire("maximum = a = ", a, " et minimum = b = ", b);
     Sinon Si (b > c et a < c) alors
-      Ecrire("max = b = ", b, " et min = a = ", a);
+      Ecrire("maximum = b = ", b, " et minimum = a = ", a);
     Sinon Si (a > b et b > c) alors
-      Ecrire("max = a = ", a, " et min = c = ", c);
+      Ecrire("maximum = a = ", a, " et minimum = c = ", c);
     Sinon Si (c > b et b > a) alors
-      Ecrire("max = c = ", c, " et min = a = ", a);
+      Ecrire("maximum = c = ", c, " et minimum = a = ", a);
     Sinon Si (b > a et a > c) alors
-      Ecrire("max = b = ", b, " et min = c = ", c);
+      Ecrire("maximum = b = ", b, " et minimum = c = ", c);
     Sinon Si (c > a et a > b) alors
-      Ecrire("max = c = ", c, " et min = b = ", b);
+      Ecrire("maximum = c = ", c, " et minimum = b = ", b);
     Sinon Si (a = b et c < a) alors
-      Ecrire("max = a = b = ", b, " et min = c = ", c);
+      Ecrire("maximum = a = b = ", b, " et minimum = c = ", c);
     Sinon Si (a = b et c > a) alors
-      Ecrire("max = c = ", c, " et min = a = b = ", b);
+      Ecrire("maximum = c = ", c, " et minimum = a = b = ", b);
     Sinon Si (a = c et b < a) alors
-      Ecrire("max = a = c = ", c, " et min = b = ", b);
+      Ecrire("maximum = a = c = ", c, " et minimum = b = ", b);
     Sinon Si (a = c et b > a) alors
-      Ecrire("max = b = ", b, " et min = a = c = ", c);
+      Ecrire("maximum = b = ", b, " et minimum = a = c = ", c);
     Sinon Si (b = c et a < b) alors
-      Ecrire("max = b = c = ", c, " et min = a = ", a);
+      Ecrire("maximum = b = c = ", c, " et minimum = a = ", a);
     Sinon Si (b = c et a > b) alors
-      Ecrire("max = a = ", a, " et min = b = c = ", c);
+      Ecrire("maximum = a = ", a, " et minimum = b = c = ", c);
+    Sinon Si (a = b et b = c) alors
+      Ecrire("maximum = minimum = a = b = c = ", c);
     Sinon
       Ecrire("la valeur n'est pas validée ou un erreur dans les conditions");
     FinSi
+    Ecrire("moyenne = ", m);
   Fin
