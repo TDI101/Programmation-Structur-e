@@ -1,0 +1,8 @@
+Exemple d'un solution :
+
+Algorithme Q4
+  Variables x, n, m : Entier
+  Début
+    m <- 1;
+    Ecrire("")
+  
