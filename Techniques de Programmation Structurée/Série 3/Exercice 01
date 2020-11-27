@@ -1,0 +1,11 @@
+Exemple d'un solution :
+
+Algorithme Q1
+  Variables r, s : Réels
+  Constante Pi = 3.14
+  Début
+    Ecrire("Entrez la valeur de rayon");
+    lire(r);
+    s <- Pi * r * r;
+    Ecrire("Le surface = ", s);
+  Fin
