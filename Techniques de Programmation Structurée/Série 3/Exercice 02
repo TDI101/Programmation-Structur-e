@@ -1,0 +1,16 @@
+Exemple d'un solution :
+
+Algorithme Q2
+  Variables i, y, m, mg, my : Réels
+  Début
+    mg, my <- 0;
+    Pour i <- 1 à 10 faire
+      Ecrire("Entrez la valeur de matiére");
+      lire(m);
+      Ecrire("Entrez la valeur de coefficients");
+      lire(y);
+      mg <- mg + (m * y);
+      my <- my + y;
+    FinPour
+    Ecrire("Le moyenne général = ", (mg / my));
+  Fin
