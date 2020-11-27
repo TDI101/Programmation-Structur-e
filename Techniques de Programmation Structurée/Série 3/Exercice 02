@@ -1,6 +1,30 @@
 Exemple d'un solution :
 
 Algorithme Q2
+  Variables a, b, c, mg : Réels
+  Variables ac, bc, cc : Entier
+  Début
+    Ecrire("Entrez les note");
+    lire(a, b, c);
+    Ecrire("Entrez les coefficients");
+    lire(ac, bc, cc);
+    mg <- ( (a * ac) + (b * bc) + (c * cc) ) / (ac + bc + cc);
+    Si (mg >= 12 et mg <= 20) alors
+      Ecrire("Admis");
+    SinonSi (mg >= 10 et mg < 12) alors
+      Ecrire("Passer à l'orale")
+    SinonSi (mg >= 0 et mg < 10) alors
+      Ecrire("N'est pas admis");
+    Sinon
+      Ecrire("Veuillez vérifier que les numbers sont corrects");
+    FinSi
+  Fin
+
+
+Exemple d'un solution pour un cas à valeurs multiples :
+
+
+Algorithme Q2V2
   Variables i, y, m, mg, my : Réels
   Début
     mg, my <- 0;
