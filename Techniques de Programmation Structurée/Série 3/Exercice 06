@@ -1,0 +1,19 @@
+Exemple d'un solution :
+
+Algorithme Q6
+  Variables i, n, tr, s, p : Entier
+  Variables m : Réel
+  Début
+    s <- 0;
+    p <- 1;
+    Ecrire("Entrez le nombre de répétition");
+    lire(tr);
+    Pour i <- 1 à tr faire
+      Ecrire("Entrez un valeur");
+      lire(n);
+      s <- s + n;
+      p <- p * n;
+    FinPour
+    m <- s / tr;
+    Ecrire("La somme = ", s, " , la produit = ", p, " et la moyenne = ", m);
+  Fin
