@@ -1,7 +1,7 @@
 Exemple d'un solution :
 
 Algorithme Q4
-  Variables x, n, m : Entier
+  Variables x, n, m, i : Entier
   Début
     m <- 1;
     Ecrire("")
