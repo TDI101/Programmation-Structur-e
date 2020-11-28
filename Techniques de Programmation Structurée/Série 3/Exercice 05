@@ -13,6 +13,9 @@ Algorithme Q5
         i <- i + 1;
       FinSi
     FinTantQue
+    Si (s = 0 et i = 0) alors
+      i <- 1;
+    FinSi
     m <- s / i;
     Ecrire("La somme = ", s, " et la moyenne = ", m);
   Fin
