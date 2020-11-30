@@ -1,3 +1,8 @@
+Ecrire un algorithme qui demande à l'utilisateur d'entrer trois matières avec leurs coefficients, puis il affiche la mention delon la moyenne générale obtenue.
+  ✓ Le candidat et admis si Mg >= 12
+  ✓ Le candidat passe a l'orale si 10 <= Mg < 12
+  ✓ Le candidat n'est pas admis si Mg < 10
+
 Exemple d'un solution :
 
 Algorithme Q2
