@@ -1,8 +1,21 @@
+Ecrire un algorithme qui calcule la puissance d'un nombre.
+
 Exemple d'un solution :
 
 Algorithme Q4
-  Variables x, n, m, i : Entier
+  Variables n, p, m, i : Entier
   Début
     m <- 1;
-    Ecrire("")
-  
+    Ecrire("Entrez la nombre");
+    lire(n);
+    Ecrire("Entrez la puissance");
+    lire(p);
+    Si (p != 0) alors
+      Pour i <- 1 à p faire
+        m <- m * n;
+      FinPour
+    Sinon
+      m <- 1;
+    FinSi
+    Ecrire("La résultat = ", m);
+  Fin
