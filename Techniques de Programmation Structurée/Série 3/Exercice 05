@@ -1,3 +1,5 @@
+Ecrire un algorithme qui Saisie des entiers, puis on affiche leur somme et leur moyenne (on arrête la saisie avec la valeur 0).
+
 Exemple d'un solution :
 
 Algorithme Q5
@@ -13,8 +15,30 @@ Algorithme Q5
         i <- i + 1;
       FinSi
     FinTantQue
-    Si (s = 0 et i = 0) alors
+    Si (i = 0) alors
       i <- 1;
+    FinSi
+    m <- s / i;
+    Ecrire("La somme = ", s, " et la moyenne = ", m);
+  Fin
+
+Exemple d'un autre solution :
+
+Algorithme Q5V2
+  Variables n, m, s, i : Réels
+  Début
+    i, s <- 0;
+    n <- 1;
+    TantQue (n != 0) faire
+      Ecrire("Entrez la number");
+      lire(n);
+      s <- s + n;
+      i <- i + 1;
+    FinTantQue
+    Si (i > 1) alors
+      i <- i - 1;
+    Sinon
+      i <- i;
     FinSi
     m <- s / i;
     Ecrire("La somme = ", s, " et la moyenne = ", m);
